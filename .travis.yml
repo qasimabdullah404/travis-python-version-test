@@ -11,5 +11,7 @@ python:
   - "3.6"
 
 script:
+  - python2 --version
   - python2 ./hello2.py
+  - python3 --version
   - python3 ./hello3.py
