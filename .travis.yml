@@ -1,0 +1,15 @@
+os: linux
+dist: bionic
+group: stable
+
+language: java
+
+jdk: openjdk11
+
+python:
+  - "2.7"
+  - "3.6"
+
+script:
+  - python2 ./hello2.py
+  - python3 ./hello3.py
